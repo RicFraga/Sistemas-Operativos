@@ -1,0 +1,15 @@
+*********************************************************************************************************
+*                                           <unsitd.h>                                                  *
+--------------------------------------------------------------------------------------------------------*
+ -> Standard Symbolic and constants and types                                                           *
+    Biblioteca necesaria para realizar llamadas al sistema                                              *
+                                                                                                        *
+DESCRIPCION:                                                                                            *
+Esta cabecera define diversos constantes simbólicas y tipos, y declara diversas funciones               *
+                                                                                                        *
+POSIX (Portable Operating System Interface): API. familia de estándares especificados por la Sociedad   *
+                                             de Computación de la IEEE para mantener compatibilidad     *
+                                             entre sistemas operativos. POSIX define la API, a la vez   *
+                                             shells de comandos de línea y las interfaces de utilidades *                                             
+                                                                                                        *
+*********************************************************************************************************

@@ -1,0 +1,38 @@
+********************************************************************************************************
+                                                ls -la                                                 *
+-------------------------------------------------------------------------------------------------------*
+ -> Muestra el listado de los archivos en el directorio actual, así como los permisos asociados        *
+    a estos                                                                                            *
+ -> Conceder o quitar permisos = prender y apagar bits                                                 *
+                                                                                                       *
+    EJEMPLO:                                                                                           *
+                                                                                                       *
+     6     5     4                                                                                     *
+    110   101   000                                                                                    *
+    rw  - r-x - ---                                                                                    * 
+                                                                                                       *
+    Entonces para hacer un comando que otorge estos permisos:                                          *
+                                                                                                       *
+    $chmod /654                                                                                        * 
+                                                                                                       *
+ -> Con tres bits es posible representar el sitema octal                                               *
+ -> Un comando se puede ejecutar con una llamada al sistema mediante un lenguaje de programación       *
+ -> fprintf, fwrite, fprint, system NO EXISTEN PARA ESTA MATERIA, ya que hacen uso de comandos y no de *
+    llamadas al sistema                                                                                *
+                                                                                                       *
+-------------------------------------------------------------------------------------------------------*
+IDENTIFICADORES DE PERMISOS:                                                                           *
+r: permiso de lectura                                                                                  *
+w: persimo de escritura                                                                                *
+x: permiso de ejecución                                                                                *
+                                                                                                       *
+IDENTIFICADORES DE TIPO DE ARCHIVO:                                                                    *
+d: directorio                                                                                          *
+b: archivo de bloque                                                                                   *
+c: archivo de caracter                                                                                 *
+                                                                                                       *
+Se agrupan en bloques de 3                                                                             *
+PRIMER BLOQUE: permisos para el dueño o creador del archivo                                            *
+SEGUNDO BLOQUE: usuarios que pertenecen al grupo de red donde se encuentra el dueño o el archivo       *
+TERCER BLOQUE: resto de los usuarios (mundo)                                                           *
+********************************************************************************************************

@@ -1,0 +1,26 @@
+*****************************************************************************************************
+*                                         PARA MONTAR                                               *
+----------------------------------------------------------------------------------------------------*
+$mount -t vfat /dev/sdx/media/nombre_directorio_relacionado_con_tus_dispositivos                    *
+          ntfs        x = número del puerto usb que se desee montar                                 *
+                     media = puerto lógico (nombre con el que bautaizaste a tu USB)                 *
+                                                                                                    *
+    * En un montaje manual no se crea automáticamente el directorio del dispositivo USB             *
+                                                                                                    *
+--> ESTE COMANDO ES LO QUE HACE AUTOMATICAMENTE EL SO CUANDO INGRESAS UN DISPOSITIVO USB            *
+*****************************************************************************************************
+
+
+*****************************************************************************************************
+*                                        PARA DESMONTAR                                             *
+----------------------------------------------------------------------------------------------------*
+$unmount /media/nombre_directorio_relacionado_con_tus_dispositivos                                  *
+                                                                                                    *
+--> ESTE COMANDO SE EJECUTA CUANDO EXTRAES UNA MEMORIA USB                                          *
+*****************************************************************************************************
+
+
+-------------------------------------------------------------------------------------------------------
+| - A ESTOS COMANDOS SE LES PEDIRA PERMISOS DE SU                                                     |
+| - El sistema de archivos del sistema de montaje debe ser el mismo que el de la USB que se utilizará |
+-------------------------------------------------------------------------------------------------------

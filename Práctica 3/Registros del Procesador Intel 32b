@@ -1,0 +1,89 @@
+/////////////////////////////////////////////////
+
+Estructura de un programa ejecutable
+* Segmento de Datos:
+    - Datos Estáticos Inicializados
+    - Datos Estáticos No Inicializados
+* Segmento de Código
+* Segmento de Pila
+* Segmento Extra (Opcional)
+
+/////////////////////////////////////////////////
+
+**************************************************
+
+Registros del Procesador Intel 32 bits
+* Registros de 32 bits:
+    - Registros de Propósito General
+        > EAX
+        > EBX
+        > ECX
+        > EDX
+        > ESI
+        > EDI
+    - Registros de Propósito Específico
+        > EDS
+        > ECS
+        > ESS
+        > EES
+        > EBP
+        > ESP
+
+**************************************************
+
+* Resgistros de 16 bits
+    - Registros de Propósito General
+        > AX
+        > BX
+        > CX
+        > DX
+        > SI
+        > DI
+
+**************************************************
+
+* Registros de 8 bits
+    - Registros de Propósito General
+        > AH, AL
+        > BH, BL
+        > CH, CL
+        > DH, DL
+
+**************************************************
+
+ENSAMBLADOR LINUX
+
+$gzip -d nasm... .tar.gz
+$tar xvf nasm... .tar
+$cd nasm...
+$ls
+$./configure chmod <= 0700 conf...
+$make
+$ls nasm
+$make install
+
+**************************************************
+
+TIPOS DE DATOS
+
+db - 1 byte - char
+dw - 2 bytes - int
+dd - 4 bytes - int float
+dq - 8 bytes - double long
+
+**************************************************
+
+ASIGNACIONES
+
+MOV EDX,38 <=> EDX = 38;
+MOV ECX,cadena <=> ECX = &cadena;
+MOV EBX,1 <=> EBX = 1;
+MOV EAX,4 <=> EAX = 4;      ()
+
+**************************************************
+
+INTERRUPCIONES
+
+INT 0X80        (Se encuentra el servicio de interrumpción para Linux)
+    
+**************************************************
